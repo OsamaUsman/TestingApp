@@ -10,7 +10,7 @@ namespace TestingApp.Repo1
 {
     public class Repository<T> : IRepository<T> where T : class , IMyEntity
     {
-        private TestingAppDbContext _db;
+        readonly private TestingAppDbContext _db;
         
         public Repository()
         {

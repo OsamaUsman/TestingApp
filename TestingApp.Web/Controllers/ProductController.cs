@@ -10,6 +10,7 @@ using TestingApp.Repo1;
 
 namespace TestingApp.Web.Controllers
 {
+    [Authorize]
     public class ProductController : Controller
     {
         // GET: Product
